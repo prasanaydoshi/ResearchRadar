@@ -3,8 +3,8 @@
   "sequence_position": 1,
   "github_owner": "prasanaydoshi",
   "intended_repository": "ResearchRadar",
-  "status": "publishing",
-  "shipped": false,
+  "status": "shipped_verified",
+  "shipped": true,
   "started_local_date": "2026-09-04",
   "timezone": "America/Toronto",
   "real_papers": 4799,
@@ -22,5 +22,11 @@
     "PilotDeck"
   ],
   "completion_rule": "Only mark shipped after remote files and commit are verified. Build and ship at most one project per Toronto calendar day. Resume this project before starting another.",
-  "visibility": "public"
+  "visibility": "public",
+  "repository_url": "https://github.com/prasanaydoshi/ResearchRadar",
+  "verified_code_commit": "412e7c7470ee484e4fd1a29314ff4515dc0354f5",
+  "shipped_local_date": "2026-09-05",
+  "verified_remote_files": 32,
+  "ci_status": "success",
+  "ci_run_url": "https://github.com/prasanaydoshi/ResearchRadar/actions/runs/33988302363"
 }

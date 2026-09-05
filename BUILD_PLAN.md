@@ -10,7 +10,7 @@ This is project 1 of 6 requested by the owner. Work on only one project at a tim
 - [x] Build paper explorer, outcome reveal, explanations, local reading list, export, manual scoring, and live search.
 - [x] Run data/model/API verification and cross-language inference checks.
 - [x] Record results and reproducible setup instructions.
-- [ ] Publish a separate ResearchRadar repository under prasanaydoshi and verify the remote files.
+- [x] Publish a separate ResearchRadar repository under prasanaydoshi and verify the remote files.
 
 ## Sequential continuation
 
@@ -39,3 +39,5 @@ Source-backed scuba equipment catalog; explain categories, fit, maintenance and 
 User explicitly clarified BUILD a ForeFlight replica, not buy one. Build an original branded ForeFlight-style responsive planning/learning app for private pilots: airport search and map, route legs, distance/time/fuel planning, weather METAR/TAF with source timestamps and age indicators, aircraft profiles, checklists and logbook. Use documented public/appropriately licensed data, original code and design; no copying proprietary code/assets/charts or claiming ForeFlight affiliation. Scope the initial release to planning/simulation, not operational navigation, certified flight readiness, official briefing or flight-plan filing. Never fabricate current aeronautical data. Subtasks: source/coverage audit, data ingestion, route/math/weather parsing, UI/persistence, edge-case and stale-data tests, documented limitations/demo, publish.
 
 Repository visibility: public, explicitly approved by the user September 5, 2026.
+
+Shipped September 5, 2026: https://github.com/prasanaydoshi/ResearchRadar . All 32 remote files matched the verified local build at commit `412e7c7470ee484e4fd1a29314ff4515dc0354f5`. GitHub Actions run `33988302363` passed tests, portable inference and deterministic retraining. FlightGuard is next, no earlier than September 6, 2026 Toronto time.
