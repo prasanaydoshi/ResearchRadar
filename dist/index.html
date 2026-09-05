@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ResearchRadar · Find tomorrow's influential research</title>
+  <meta name="description" content="Explore AI paper rankings, replay citation outcomes, and inspect a reproducible temporal benchmark.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script src="scoring.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to research explorer</a>
+<header><a href="./" class="brand"><span class="mark">R<span>◉</span></span> ResearchRadar</a><span class="edition">RESEARCH INTELLIGENCE / 01</span><span class="status">Open data. Inspectable models.</span></header>
+<main id="main">
+  <section class="intro"><div><p class="eyebrow">SIGNAL BEFORE THE CITATIONS</p><h1>What deserves<br>your next read?</h1><p class="lede">Rank emerging research. Rewind the evidence.<br>See what the model gets right—and where it falls short.</p></div><div class="scope"><span class="scope-number" id="sample-count">—</span><span>AI papers in the research sample</span><p>Scores estimate future citation attention.<br>Scientific quality requires a human reading.</p></div></section>
+  <nav aria-label="Research views"><button class="tab active" data-view="explore" aria-pressed="true">01 / Historical replay</button><button class="tab" data-view="score" aria-pressed="false">02 / Score a paper</button><button class="tab" data-view="evaluate" aria-pressed="false">03 / Model evidence</button></nav>
+  <div id="loading" role="status">Loading the research corpus…</div><div id="error" class="error" role="alert" hidden></div>
+  <section id="explore" class="view">
+    <div class="toolbar"><label>Publication cohort<select id="year"></select></label><label class="search-label">Find a topic or paper<input id="query" type="search" placeholder="Try graph learning, robotics, language…"></label><label>Rank by<select id="sort"><option value="probability">Predicted attention</option><option value="publication_date">Publication date</option></select></label><button id="reveal" class="primary">Reveal future outcomes</button></div>
+    <div class="context-bar"><p id="cohort-context"></p><label class="check"><input type="checkbox" id="saved-only"> My reading list</label></div>
+    <div class="results-head"><h2 id="results-title">Ranked papers</h2><button id="export" class="text-button">Export visible results ↓</button></div>
+    <div id="papers" aria-live="polite"></div><div class="pagination"><button id="more" class="secondary" hidden>Show 20 more papers</button><span id="result-count"></span></div>
+    <p class="fineprint">Historical replay uses a present-day metadata snapshot. Scores are frozen before the held-out years; underlying metadata was not archived on publication day. Outcomes are hidden for exploration, not secured from inspection.</p>
+  </section>
+  <section id="score" class="view" hidden>
+    <div class="two-column"><div><p class="eyebrow">TRY YOUR OWN PAPER</p><h2>From title to attention estimate.</h2><p>Enter publication-time metadata. This uses the same trained model as the historical benchmark, right in your browser.</p><form id="score-form"><label>Paper title<textarea id="paper-title" minlength="3" maxlength="2000" rows="3" required placeholder="A title from your next reading list"></textarea></label><div class="form-grid"><label>Authors<input id="author-count" type="number" value="3" min="0" max="10000" required></label><label>References<input id="reference-count" type="number" value="30" min="0" max="10000" required></label></div><button class="primary" type="submit">Estimate attention</button></form><p class="fineprint">Unprovided historical graph features default to zero. This is an out-of-sample estimate, not a verified probability for every topic or publication year.</p></div><div id="score-output" class="score-output"><p class="eyebrow">YOUR RESULT</p><p>The estimate and its strongest contributing features will appear here.</p></div></div>
+    <div class="live-search"><h2>Search newly published research</h2><p>Live OpenAlex search is available when running the included Python server. The static explorer works without a server or API key.</p><form id="live-form"><label>Search phrase<input id="live-query" required minlength="2" maxlength="150" placeholder="e.g. robot foundation models"></label><label>Publication year<input id="live-year" type="number" value="2026" min="2023" max="2100" required></label><button class="secondary">Search and rank</button></form><p id="live-status" role="status"></p><div id="live-results"></div></div>
+  </section>
+  <section id="evaluate" class="view" hidden><div class="evidence-intro"><p class="eyebrow">EVIDENCE OVER HYPE</p><h2>A prediction is only as useful as its test.</h2><p>Untouched future cohorts, a separate calibration period, and published baselines. These numbers come from the bundled corpus.</p></div><div id="split-timeline" class="split-timeline"></div><div class="table-wrap"><table><caption>Held-out model comparison</caption><thead><tr><th>Model</th><th>Precision@20 ↑</th><th>NDCG@20 ↑</th><th>Avg. precision ↑</th><th>Brier score ↓</th></tr></thead><tbody id="metrics"></tbody></table></div><div class="two-column evidence"><div><h3>Calibration</h3><p>Predicted attention vs. observed top-decile frequency.</p><svg id="calibration" viewBox="0 0 420 310" role="img" aria-label="Reliability chart: observed event frequency versus predicted probability"></svg></div><div><h3>What the experiment actually tests</h3><p id="target-description"></p><ul id="limitations"></ul><a class="text-button" href="evaluation.json" download>Download full evaluation JSON ↓</a></div></div></section>
+  <footer><span>ResearchRadar / reproducible by design</span><div><a href="https://help.openalex.org/" target="_blank" rel="noopener noreferrer">Data: OpenAlex</a><a href="model.json" download>Model weights</a><span>Reading list stays on this device.</span></div></footer>
+</main>
+<dialog id="detail"><button id="close-detail" class="text-button">Close ×</button><div id="detail-content"></div></dialog>
+</body></html>

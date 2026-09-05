@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.egg-info/
+data/raw/
+data/probe.json
+data/checkpoints/
+*.joblib
+.DS_Store

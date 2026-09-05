@@ -1,0 +1,26 @@
+{
+  "project": "ResearchRadar",
+  "sequence_position": 1,
+  "github_owner": "prasanaydoshi",
+  "intended_repository": "ResearchRadar",
+  "status": "publishing",
+  "shipped": false,
+  "started_local_date": "2026-09-04",
+  "timezone": "America/Toronto",
+  "real_papers": 4799,
+  "held_out_papers": 1200,
+  "python_tests_passed": 12,
+  "portable_inference_papers_checked": 4799,
+  "full_model_precision_at_20": 0.55,
+  "metadata_baseline_precision_at_20": 0.65,
+  "publication_blocker": null,
+  "remaining_projects": [
+    "FlightGuard",
+    "InspectIQ",
+    "ScentCompass",
+    "DiveKit",
+    "PilotDeck"
+  ],
+  "completion_rule": "Only mark shipped after remote files and commit are verified. Build and ship at most one project per Toronto calendar day. Resume this project before starting another.",
+  "visibility": "public"
+}

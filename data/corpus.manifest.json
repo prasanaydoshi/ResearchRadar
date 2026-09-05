@@ -1,0 +1,635 @@
+{
+  "source": "https://api.openalex.org/works",
+  "license": "CC0 metadata",
+  "seed": 42,
+  "papers": 4799,
+  "created_at": "2026-09-05T02:18:38.367529+00:00",
+  "queries": [
+    {
+      "query": {
+        "filter": "publication_year:2017,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:17.108777+00:00",
+      "sha256": "c6dadb1b9212c7e4ea78ff33a35aaf16c9b8230684d5d9e12f66fdd3a574f682",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2017,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:21.942676+00:00",
+      "sha256": "7e22b2e0229d519bdc442af092c4504e069c10d1da56f3a3bde2e7f095eec6ad",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2017,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:26.852327+00:00",
+      "sha256": "59faf764dd42b04133fe263f58f4ed4f968c748baeac25cbf64d383747e8cdfc",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2017,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:32.603782+00:00",
+      "sha256": "b28fe956334cd6979b1b6e6f5bfc4246e070a7b6ee75b4f466b73d9eb49895a3",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2017,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:37.574285+00:00",
+      "sha256": "eb28cca6e1d7e247873eb9b1219d2094a3aee611eb9562865e973ed007a99660",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2017,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:43.299723+00:00",
+      "sha256": "7c96ad4e4f2c781165c27e2d62ca408bec82782e70f00563946bfc8113043180",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2018,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:48.939891+00:00",
+      "sha256": "9bf8922f5a1122d75ae06d8bc497a16e7cedbc24909f4efdba958c750fa2c76a",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2018,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:14:54.120625+00:00",
+      "sha256": "7457826fae56b2df192571e18290bab0374f1683df9ea9586e7ab0e354d1c301",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2018,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:00.364672+00:00",
+      "sha256": "99ee7f2c9b0ed722d5cf7cae9a5f238ca1267d3d6e70a0b4b0706a16097bee55",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2018,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:06.116878+00:00",
+      "sha256": "d01e9ba8d3fe304c7ab126325149622181e72522836c5aa309cb7fd9ee41f83c",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2018,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:11.889989+00:00",
+      "sha256": "a700aad24e2abc408d60b90d7445c6b283cb1c41521404d20218803b86645d1d",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2018,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:17.880081+00:00",
+      "sha256": "5ea655669bc8255cddd5387c1e2aaf25b39f2e13b3b37244ad0667cfee54edb4",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2019,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:23.520989+00:00",
+      "sha256": "0a425326f5c2142467f8178a57628b8fea152fe213c05dbbdc927f33aa674e25",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2019,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:28.676809+00:00",
+      "sha256": "33efef1f5365c04b9674f04c97dbbb868e7d0dd9cdb64b537f89c523ce0e098d",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2019,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:33.482243+00:00",
+      "sha256": "a1561001b02c8271979f528ae47f7ddc356f78266eaa21623fe3d50ff9e63e8a",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2019,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:38.687797+00:00",
+      "sha256": "48ae5c7bba2d5f31ba73dc67181c54383854f753ba88eae4bdc856d23107476b",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2019,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:44.898038+00:00",
+      "sha256": "fd0bada6289fe25bdccaabb5171f73f8f5cf71a8b83de5fd9e5aad269c13312f",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2019,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:50.249823+00:00",
+      "sha256": "62efaefd7bcf94bf4e5ec9f3541a4b10a3c0433005e2f5cf917e3908fe01c115",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2020,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:15:55.253379+00:00",
+      "sha256": "1e6ab41bea254edd2307a2455fdb10412f56e2a8f3555517de365683f55736d6",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2020,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:00.113235+00:00",
+      "sha256": "d52e941d5eb1c84c9a54664226c5fcc9423d36bcd771ce1e775d2bde52cdfe9f",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2020,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:05.266907+00:00",
+      "sha256": "711176a5103825ec638fd8508b633324d4d6e3807931822c78e1d6018a24b9ea",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2020,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:09.673094+00:00",
+      "sha256": "23b92b1fc172d8daaa2d6b4770cc41175a432e1efcd9feb8872c974c81c81251",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2020,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:15.557801+00:00",
+      "sha256": "bffbf40f4ac052c9d53ac7e5e396fe84a818606acf1499bebe36c4f3f14aa217",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2020,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:20.999793+00:00",
+      "sha256": "aca53fab38672203d5d98aba177a9109a7d6db009fd8bba687fd1751a7f3ce5a",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2021,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:26.163575+00:00",
+      "sha256": "37ae657273bfdd3131b8c8b32d91de727247d8a1463e6fea10cf6d4e71f36f71",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2021,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:31.972023+00:00",
+      "sha256": "980972e2fd45dd185b1da14ea80d83df8ab2c20a570c525943528a57321851c8",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2021,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:37.794897+00:00",
+      "sha256": "e594df28414afe79a53e127abfb5e1b18c9f6b836b4b57c5f1a4e24dd6ecfe58",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2021,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:43.001153+00:00",
+      "sha256": "d3306647c4bbddcdb42ffad906fce3c9ade8289235d6861be486b2d852ae68e1",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2021,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:48.486137+00:00",
+      "sha256": "e8953ef4bdbe14cb4e6227e4f454ef61b3a550ecf1a197145433cb09763441ca",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2021,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:53.961829+00:00",
+      "sha256": "fec1f92297b81576d1f42ea08a2ef3900fe76484098acee0d8fe308f3dab730f",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2022,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:16:59.327071+00:00",
+      "sha256": "a86fb6f8d60fc2845978e0a3c91a58ad770a427f89e5b88808c0a89531d64334",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2022,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:04.689574+00:00",
+      "sha256": "47a34648315e142b6eaa8f673c92798317b6369988dc6e8afa3a3b94f95ee238",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2022,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:10.068370+00:00",
+      "sha256": "02f97beef7bb1a6f3798d3ca4957403a763215d1aaff9cc01e90f7d0f9dd53d7",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2022,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:17.639686+00:00",
+      "sha256": "b8d71011e211a992319b789a614caaf7581ecbdebbd6f3c84ebb5388c30f5e6f",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2022,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:23.322325+00:00",
+      "sha256": "14998d9dc74847509123117f747ca45b51b02fbace7345db501a9b77573f9e2c",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2022,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:28.952926+00:00",
+      "sha256": "dc1b37a50eaa79ce07ed4d292bb49ac9cdc1000fa185fc27c3ccfd7ba83f8f99",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2023,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:34.682915+00:00",
+      "sha256": "f4ed78a9d10d1e045913300f0a9356ef3c2afa3a9e376e4f925283ab25d4354b",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2023,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:40.498209+00:00",
+      "sha256": "2a8f5a7828228128a95a8ee87336c92f44813b0677f82e512e94132797e05416",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2023,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:45.417503+00:00",
+      "sha256": "a089efa0a984e112bc239094e2861270f9803f9707b6ac005ac00ed0bda85e82",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2023,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:52.388569+00:00",
+      "sha256": "2fdb143962f81dcb171f321fcffb6a71f59ad5f5c1bb974e683d97e83e192e46",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2023,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:17:57.951499+00:00",
+      "sha256": "50a776fe3f09ee683fc6c69b2ed3e8a552adaacc6320286ae26c508dea5631db",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2023,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:04.096225+00:00",
+      "sha256": "82c8421667770d80479efeb94945145d976a9c4f8a190d6ccd5eaad9d835de77",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2024,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:09.394158+00:00",
+      "sha256": "3c7054300d5e91ebeb54a79f5f23d730f7a22ac5dbe498845a6da61f3f9b68cd",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2024,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:15.143657+00:00",
+      "sha256": "b15938c85beccf86a0946d3fdaeb27661ead9ff6bbe39703dc17ac2d419a9aeb",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2024,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:20.269257+00:00",
+      "sha256": "ae8f75bc9cd7923f1c37224ce2f082d47b0c6112d7d18b6c5a93dfb23da54a8f",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2024,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:25.473984+00:00",
+      "sha256": "aa68298afa454072de0bebc0b7a8282bf1ef0006439b5bcd3466b83734f6655a",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2024,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 5,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:32.451929+00:00",
+      "sha256": "6fd430c7e57c444d9d857845803b4a5c84c368226d94abba9cc9966dff0ad029",
+      "returned": 100
+    },
+    {
+      "query": {
+        "filter": "publication_year:2024,primary_topic.subfield.id:1702,type:article|preprint",
+        "sample": 600,
+        "seed": 42,
+        "per_page": 100,
+        "page": 6,
+        "select": "id,doi,title,publication_date,publication_year,authorships,referenced_works,counts_by_year,primary_topic,type"
+      },
+      "retrieved_at": "2026-09-05T02:18:38.135099+00:00",
+      "sha256": "3a338cb26a4d5a14f7f30b3c337584dca90d84701af2b47f57804638ca2cbc93",
+      "returned": 100
+    }
+  ],
+  "corpus_sha256": "7279ad6d5b857136786d4728a08364c27330bca2e9756c749876b0578cead4ce",
+  "sampling": "Seeded uniform OpenAlex sample within publication year and Artificial Intelligence subfield 1702, article/preprint types; current snapshot, not an archival snapshot"
+}

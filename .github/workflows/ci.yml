@@ -1,0 +1,30 @@
+name: Verify ResearchRadar
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install -r requirements-lock.txt
+      - run: python -m pytest -q
+      - run: node --check dist/app.js && node --check dist/scoring.js
+      - run: node tests/portable.cjs
+      - run: python -m radar.cli train --output /tmp/radar-retrained
+      - name: Check deterministic predictions
+        run: |
+          python - <<'PY'
+          import json
+          a=json.load(open('dist/papers.json'))
+          b=json.load(open('/tmp/radar-retrained/papers.json'))
+          assert len(a)==len(b)
+          assert all(x['id']==y['id'] and abs(x['probability']-y['probability']) < 1e-7 for x,y in zip(a,b))
+          PY
